@@ -8,8 +8,8 @@ const { closeBrowser } = require("./utilities");
   const page = await browser.newPage();
 
   try {
-    await navigate(page, "https://example.com");
-    await login(page, "user@example.com", "password123");
+    // await navigate(page, "https://example.com");
+    await login(page, "ay@mail.com", "pass1234");
     // Add more automation tasks here.
   } catch (error) {
     console.error("Automation error:", error);
